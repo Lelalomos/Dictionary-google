@@ -206,11 +206,11 @@
 
     (function () {
         let storageItem = browser.storage.local.get();
-
         storageItem.then((results) => {
             let interaction = results.interaction || { dblClick: { key: DEFAULT_TRIGGER_KEY }};
 
             LANGUAGE = results.language || DEFAULT_LANGUAGE;
             TRIGGER_KEY = interaction.dblClick.key;
         });
+
     })();

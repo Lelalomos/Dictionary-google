@@ -134,14 +134,14 @@ a:hover {
 }
 
 .btn-default:hover {
-	background-color: #ddd;
-	border-color: #bbb
+	background-color: #434242;
+	border-color: #f7f3f3
 }
 
 .btn-primary {
 	background-color: #48e;
 	border-color: #37d;
-	color: #fff
+	color: #000000
 }
 
 .btn-primary:hover {

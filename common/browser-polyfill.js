@@ -1209,12 +1209,25 @@
         };
         return wrapObject(extensionAPIs, staticWrappers, apiMetadata);
       };
-  
+        
       if (typeof chrome != "object" || !chrome || !chrome.runtime || !chrome.runtime.id) {
         throw new Error("This script should only be loaded in a browser extension.");
       } // The build process adds a UMD wrapper around this file, which makes the
       // `module` variable available.
-  
+      
+    fetch('../lang.json')
+    .then(response => response.json())
+    .then(data => {
+      const select = document.getElementById('language-selector');
+      const dataloop = data.text;
+      for (let i = 0; i < dataloop.length; i++) {
+        const option = document.createElement('option');
+        option.value = dataloop[i].code;
+        option.text = dataloop[i].language;
+        select.appendChild(option);
+      }
+    })
+    .catch(error => console.error(error));
   
       module.exports = wrapAPIs(chrome);
     } else {
