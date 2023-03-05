@@ -1,5 +1,6 @@
-# Dictionary Anywhere
-The **Dictionary Anywhere** extension helps you stay focused on what you are reading by eliminating the need to search for meaning, 
+# Dictionary all language version
+
+The extension helps you stay focused on what you are reading by eliminating the need to search for meaning, 
 Double-clicking any word will view its definition in a small pop-up bubble. 
 Now you never have to leave what you are reading to search for the meaning of the words you don't yet know.
 
@@ -7,7 +8,8 @@ Extension is available for [Google Chrome](https://chrome.google.com/webstore/de
 
 ##### Enjoy Reading Uninterrupted!!!
 
-## Support Me
-If you find this Extension helpful, consider supporting me:
+## Dictionary all language version:
+- support more language
+- translate language only.
 
-<a href="https://www.buymeacoffee.com/meetDeveloper"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=meetDeveloper&button_colour=5F7FFF&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00"></a>
+### original code: https://github.com/meetDeveloper/Dictionary-Anywhere
